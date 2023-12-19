@@ -93,17 +93,36 @@ a.nav-link {
   background-color: #f7e7ea; 
 }
 
-.bot-body {
-  height: 130px;
-  display: flex;
-  border-top: 2px solid #000;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Horizon';
-  font-size: 1.8rem;
-  margin-top: 2rem;
-  background: #f7e7ea;
+footer {
+  background-color: #372d2d !important;
+  color: #fff !important;
 }
+
+.bot-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Horizon';
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.bot-body > img {
+    height: 150px;
+    width: 130px;
+    margin-left: 20px;
+}
+
+.bot-body > .ft-text > p {
+    margin-right: 20px;
+    font-size: 8px !important;
+    text-align: right;
+}
+
+.ft-text > p > i {
+  margin-right: 5px;
+}
+
 
 /*
 .btn {
@@ -260,4 +279,9 @@ button:hover {
 
 .tabs-cont > a {
   margin-right: 7px;
+}
+
+.logo-ft {
+  height: 150px;
+  width: 130px;
 }
